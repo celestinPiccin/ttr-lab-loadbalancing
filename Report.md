@@ -107,7 +107,7 @@ Describe the results obtained from the two algorithms (shortest-queue-first and 
 
 ![CQ](./visualizations/4_cq.png)
 
-![tab](./visualizations/tabFull.png)
+![tab](./visualizations/tabFull.PNG)
 >  Sans surprise, le système M/M/1 reste le plus rapide lors d'utilisation basse du système ce qui est logique comme expliqué plus haut dans le Case 3. 
 
 > Ce qui est plus intéressant de comparer sont les 99ème percentile lors d'utilisation haute du système. On peut voir que le système avec RR est le plus mauvais ce qui est logique car il est "bête", il n’implémente aucun algorithme d'optimisation du choix de serveurs. 
@@ -116,7 +116,7 @@ Describe the results obtained from the two algorithms (shortest-queue-first and 
 
 > Finalement on a CQ et M/M/1 qui ont des temps plus ou moins comparables lors d'utilisation haute du système. Vu que CQ est un système M/M/k ceci est attendu vu que nous avons vu dans la théorie que le temps de réponse d'un système M/M/k est le même que celui d'un système M/M/1 lors d'utilisation élevée du système.
 
-![mm1vsmmk](./visualizations/mm1vsmmk.png)
+![mm1vsmmk](./visualizations/mm1vsmmk.PNG)
 
 > Au final, les résultats obtenus correspondent bien à ce que nous avons vu en théorie. Avec M/M/1 qui viendrait s'inserer entre SITA et CQ.
 
